@@ -1,6 +1,6 @@
---- php1.txt	2015-01-08 20:26:46.000000000 +0800
-+++ php2.txt	2015-01-08 20:26:46.000000000 +0800
-@@ -16,23 +16,16 @@
+--- php1.txt	2015-01-08 20:35:27.000000000 +0800
++++ php2.txt	2015-01-08 20:35:27.000000000 +0800
+@@ -16,23 +16,17 @@
  gettext
  gmp
  hash
@@ -12,7 +12,7 @@
  ldap
  libxml
  mbstring
--mcrypt
+ mcrypt
 -mongo
 -mysql
 -mysqli
@@ -25,7 +25,7 @@
  pdo_sqlite
  Phar
  posix
-@@ -46,14 +39,13 @@
+@@ -46,14 +40,13 @@
  standard
  tidy
  tokenizer

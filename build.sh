@@ -29,6 +29,7 @@ rm -f configure
 --with-xmlrpc \
 --with-ldap \
 --with-ldap-sasl \
+--with-mcrypt=/usr/local/opt/mcrypt \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

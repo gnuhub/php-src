@@ -23,6 +23,7 @@ json
 ldap
 libxml
 mbstring
+mcrypt
 openssl
 pcre
 PDO

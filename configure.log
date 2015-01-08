@@ -464,7 +464,9 @@ checking for working alloca.h... (cached) yes
 checking for alloca... (cached) yes
 checking for working memcmp... yes
 checking for stdarg.h... (cached) yes
-checking for mcrypt support... no
+checking for mcrypt support... yes
+checking for libmcrypt version... >= 2.5.6
+checking for mcrypt_module_open in -lmcrypt... yes
 checking for MSSQL support via FreeTDS... no
 checking for MySQL support... no
 checking for specified location of the MySQL UNIX socket... no
