@@ -8,6 +8,8 @@
 --enable-calendar \
 --enable-soap \
 --enable-mbstring=all \
+# T11#142
+--enable-bcmath \
 --prefix=${HOME}/gnuhubdata/workspace2/php
 make
 make install

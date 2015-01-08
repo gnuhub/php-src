@@ -1,4 +1,5 @@
 [PHP Modules]
+bcmath
 calendar
 Core
 curl
