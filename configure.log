@@ -617,9 +617,38 @@ checking whether libxml build works... (cached) yes
 checking whether to enable XMLReader support... yes
 checking for xml2-config path... (cached) /usr/bin/xml2-config
 checking whether libxml build works... (cached) yes
-checking for XMLRPC-EPI support... no
+checking for XMLRPC-EPI support... yes
 checking libexpat dir for XMLRPC-EPI... no
 checking iconv dir for XMLRPC-EPI... no
+checking for xml2-config path... (cached) /usr/bin/xml2-config
+checking whether libxml build works... (cached) yes
+checking for ranlib... ranlib
+checking for inline... inline
+checking for ANSI C header files... (cached) yes
+checking xmlparse.h usability... no
+checking xmlparse.h presence... no
+checking for xmlparse.h... no
+checking xmltok.h usability... no
+checking xmltok.h presence... no
+checking for xmltok.h... no
+checking for stdlib.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for string.h... (cached) yes
+checking size of char... 1
+checking size of int... (cached) 4
+checking size of long... (cached) 8
+checking size of long long... (cached) 8
+checking for size_t... (cached) yes
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking for uid_t in sys/types.h... (cached) yes
+checking for strtoul... yes
+checking for strtoull... yes
+checking for snprintf... (cached) yes
+checking for strstr... (cached) yes
+checking for strpbrk... yes
+checking for strerror... (cached) yes
+checking for memcpy... (cached) yes
+checking for memmove... (cached) yes
 checking whether to enable XMLWriter support... yes
 checking for xml2-config path... (cached) /usr/bin/xml2-config
 checking whether libxml build works... (cached) yes
@@ -691,7 +720,7 @@ checking virtual machine dispatch method... CALL
 checking whether to enable thread-safety... no
 checking whether to enable inline optimization for GCC... yes
 checking whether to enable Zend debugging... no
-checking for inline... inline
+checking for inline... (cached) inline
 checking target system is Darwin... yes
 checking for MM alignment and log values... done
 checking for memory allocation using mmap(MAP_ANON)... yes
@@ -715,7 +744,7 @@ checking the maximum length of command line arguments... 196608
 checking command to parse /usr/bin/nm output from cc object... ok
 checking for objdir... .libs
 checking for ar... ar
-checking for ranlib... ranlib
+checking for ranlib... (cached) ranlib
 checking for strip... strip
 checking for dsymutil... dsymutil
 checking for nmedit... nmedit

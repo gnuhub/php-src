@@ -40,6 +40,7 @@ tidy
 tokenizer
 xml
 xmlreader
+xmlrpc
 xmlwriter
 xsl
 zip

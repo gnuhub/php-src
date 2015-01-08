@@ -26,6 +26,7 @@ rm -f configure
 --with-zlib \
 --enable-sockets \
 --with-tidy \
+--with-xmlrpc \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
