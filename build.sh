@@ -13,6 +13,7 @@ rm -f configure
 --enable-zip \
 --enable-ctype \
 --with-bz2 \
+--enable-exif \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

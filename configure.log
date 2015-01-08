@@ -358,7 +358,7 @@ checking whether to enable DOM support... yes
 checking for xml2-config path... (cached) /usr/bin/xml2-config
 checking whether libxml build works... (cached) yes
 checking for ENCHANT support... no
-checking whether to enable EXIF (metadata from images) support... no
+checking whether to enable EXIF (metadata from images) support... yes
 checking for fileinfo support... no
 checking whether to enable input filter support... no
 checking pcre install prefix... no

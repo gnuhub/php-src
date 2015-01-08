@@ -8,6 +8,7 @@ curl
 date
 dom
 ereg
+exif
 libxml
 mbstring
 pcre
