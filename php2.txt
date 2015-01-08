@@ -22,6 +22,7 @@ intl
 json
 libxml
 mbstring
+openssl
 pcre
 PDO
 pdo_sqlite

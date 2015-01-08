@@ -22,6 +22,7 @@ rm -f configure
 --with-imap=/usr/local/opt/imap-uw \
 --with-imap-ssl \
 --with-kerberos \
+--with-openssl \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

@@ -317,8 +317,12 @@ checking whether to enable LIBXML support... yes
 checking libxml2 install dir... no
 checking for xml2-config path... /usr/bin/xml2-config
 checking whether libxml build works... yes
-checking for OpenSSL support... no
+checking for OpenSSL support... yes
 checking for Kerberos support... yes
+checking for krb5-config... /usr/bin/krb5-config
+checking for DSA_get_default_method in -lssl... no
+checking for X509_free in -lcrypto... yes
+checking for pkg-config... /usr/local/bin/pkg-config
 checking for PCRE library to use... bundled
 checking whether to enable the SQLite3 extension... yes
 checking bundled sqlite3 library... yes
@@ -414,8 +418,6 @@ checking for utf8_mime2text signature... new
 checking for U8T_DECOMPOSE... 
 checking for pam_start in -lpam... yes
 checking for crypt in -lcrypt... no
-checking for krb5-config... /usr/bin/krb5-config
-checking for pkg-config... /usr/local/bin/pkg-config
 checking whether rfc822_output_address_list function present... yes
 checking whether build with IMAP works... yes
 checking for InterBase support... no
@@ -479,7 +481,7 @@ checking for time.h... yes
 checking for fdatasync in -lrt... no
 checking for PostgreSQL support... no
 checking for phar archive support... yes
-checking for phar openssl support... no
+checking for phar openssl support... yes
 checking whether to enable POSIX-like functions... yes
 checking sys/mkdev.h usability... no
 checking sys/mkdev.h presence... no
@@ -749,5 +751,4 @@ config.status: creating sapi/cgi/php-cgi.1
 config.status: creating ext/phar/phar.1
 config.status: creating ext/phar/phar.phar.1
 config.status: creating main/php_config.h
-config.status: main/php_config.h is unchanged
 config.status: executing default commands
