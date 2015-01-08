@@ -17,6 +17,7 @@ gettext
 gmp
 hash
 iconv
+imap
 intl
 json
 libxml

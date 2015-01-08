@@ -19,6 +19,9 @@ rm -f configure
 --with-icu-dir=/usr/local/opt/icu4c \
 --enable-ftp \
 --with-gmp \
+--with-imap=/usr/local/opt/imap-uw \
+--with-imap-ssl \
+--with-kerberos \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

@@ -318,7 +318,7 @@ checking libxml2 install dir... no
 checking for xml2-config path... /usr/bin/xml2-config
 checking whether libxml build works... yes
 checking for OpenSSL support... no
-checking for Kerberos support... no
+checking for Kerberos support... yes
 checking for PCRE library to use... bundled
 checking whether to enable the SQLite3 extension... yes
 checking bundled sqlite3 library... yes
@@ -407,9 +407,17 @@ checking if iconv is glibc's... no
 checking if using GNU libiconv... 267yes
 checking if iconv supports errno... yes
 checking if your cpp allows macro usage in include lines... yes
-checking for IMAP support... no
-checking for IMAP Kerberos support... no
-checking for IMAP SSL support... no
+checking for IMAP support... yes
+checking for IMAP Kerberos support... yes
+checking for IMAP SSL support... yes
+checking for utf8_mime2text signature... new
+checking for U8T_DECOMPOSE... 
+checking for pam_start in -lpam... yes
+checking for crypt in -lcrypt... no
+checking for krb5-config... /usr/bin/krb5-config
+checking for pkg-config... /usr/local/bin/pkg-config
+checking whether rfc822_output_address_list function present... yes
+checking whether build with IMAP works... yes
 checking for InterBase support... no
 checking whether to enable internationalization support... yes
 checking for location of ICU headers and libraries... /usr/local/Cellar/icu4c/54.1
@@ -741,4 +749,5 @@ config.status: creating sapi/cgi/php-cgi.1
 config.status: creating ext/phar/phar.1
 config.status: creating ext/phar/phar.phar.1
 config.status: creating main/php_config.h
+config.status: main/php_config.h is unchanged
 config.status: executing default commands
