@@ -383,7 +383,12 @@ If configure fails try --with-vpx-dir=<DIR>
 checking for png_write_image in -lpng... yes
 If configure fails try --with-xpm-dir=<DIR>
 If configure fails try --with-freetype-dir=<DIR>
-checking for GNU gettext support... no
+checking for GNU gettext support... yes
+checking for bindtextdomain in -lintl... yes
+checking for ngettext in -lintl... yes
+checking for dngettext in -lintl... yes
+checking for dcngettext in -lintl... yes
+checking for bind_textdomain_codeset in -lintl... yes
 checking for GNU MP support... no
 checking for mhash support... no
 checking whether to enable hash support... yes
@@ -405,7 +410,13 @@ checking for IMAP support... no
 checking for IMAP Kerberos support... no
 checking for IMAP SSL support... no
 checking for InterBase support... no
-checking whether to enable internationalization support... no
+checking whether to enable internationalization support... yes
+checking for location of ICU headers and libraries... /usr/local/Cellar/icu4c/54.1
+checking for ICU 3.4 or greater... found 54.1
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
 checking whether to enable JavaScript Object Serialization support... yes
 checking for ANSI C header files... (cached) yes
 checking for LDAP support... no
@@ -450,7 +461,7 @@ checking Oracle OCI support for PDO... no
 checking for ODBC v3 support for PDO... no
 checking for PostgreSQL support for PDO... no
 checking for sqlite 3 support for PDO... yes
-checking for PDO includes... checking for PDO includes... /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... checking for PDO includes... /Users/stallman/gnuhubdata/git/php-src/ext
 checking for usleep... (cached) yes
 checking for nanosleep... (cached) yes
 checking time.h usability... yes
@@ -666,6 +677,7 @@ checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/Xc
 checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
 checking for BSD-compatible nm... /usr/bin/nm
 checking how to recognize dependent libraries... pass_all
+checking how to run the C++ preprocessor... g++ -E
 checking the maximum length of command line arguments... 196608
 checking command to parse /usr/bin/nm output from cc object... ok
 checking for objdir... .libs
@@ -691,6 +703,16 @@ checking whether to build static libraries... yes
 
 creating libtool
 appending configuration tag "CXX" to libtool
+checking for ld used by g++... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common
+checking if g++ PIC flag -fno-common works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.4.0 dyld
+(cached) (cached) checking how to hardcode library paths into programs... immediate
 
 [1mGenerating files[m
 configure: creating ./config.status

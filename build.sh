@@ -14,6 +14,9 @@ rm -f configure
 --with-bz2 \
 --enable-exif \
 --with-gd \
+--enable-intl \
+--with-gettext=/usr/local/opt/gettext \
+--with-icu-dir=/usr/local/opt/icu4c \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
