@@ -523,7 +523,26 @@ checking OpenSSL dir for SNMP... no
 checking whether to enable SOAP support... yes
 checking for xml2-config path... (cached) /usr/bin/xml2-config
 checking whether libxml build works... (cached) yes
-checking whether to enable sockets support... no
+checking whether to enable sockets support... yes
+checking for struct cmsghdr... yes
+checking for hstrerror... yes
+checking for socketpair... (cached) yes
+checking for if_nametoindex... yes
+checking for if_indextoname... yes
+checking for netdb.h... (cached) yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/sockio.h usability... yes
+checking sys/sockio.h presence... yes
+checking for sys/sockio.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for field ss_family in struct sockaddr_storage... yes
 checking whether zend_object_value is packed... no
 checking whether flush should be called explicitly after a buffered io... yes
 checking for standard DES crypt... yes

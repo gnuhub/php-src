@@ -32,6 +32,7 @@ Reflection
 session
 SimpleXML
 soap
+sockets
 SPL
 sqlite3
 standard
