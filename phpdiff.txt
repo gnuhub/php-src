@@ -1,0 +1,36 @@
+14d13
+< ftp
+17d15
+< gmp
+19d16
+< ibm_db2
+21c18
+< imap
+---
+> intl
+23d19
+< ldap
+26,32d21
+< mcrypt
+< mongo
+< mysql
+< mysqli
+< mysqlnd
+< openssl
+< pcntl
+35d23
+< pdo_mysql
+43d30
+< sockets
+47d33
+< tidy
+49d34
+< xdebug
+52d36
+< xmlrpc
+53a38
+> xsl
+55d39
+< zlib
+58d41
+< Xdebug
