@@ -1,0 +1,15 @@
+[PHP Modules]
+Core
+curl
+date
+dom
+ereg
+libxml
+pcre
+Reflection
+SPL
+standard
+xsl
+
+[Zend Modules]
+
