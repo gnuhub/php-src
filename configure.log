@@ -365,7 +365,7 @@ checking for utimes... yes
 checking for strndup... yes
 checking whether to enable input filter support... yes
 checking pcre install prefix... no
-checking whether to enable FTP support... no
+checking whether to enable FTP support... yes
 checking OpenSSL dir for FTP... no
 checking for GD support... yes
 checking for the location of libvpx... no
