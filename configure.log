@@ -473,7 +473,16 @@ checking for specified location of the MySQL UNIX socket... no
 checking for MySQLi support... no
 checking whether to enable embedded MySQLi support... no
 checking for Oracle Database OCI8 support... no
-checking whether to enable pcntl support... no
+checking whether to enable pcntl support... yes
+checking for fork... yes
+checking for waitpid... yes
+checking for sigaction... yes
+checking for getpriority... yes
+checking for setpriority... yes
+checking for wait3... yes
+checking for sigprocmask... yes
+checking for sigwaitinfo... no
+checking for sigtimedwait... no
 checking whether to enable PDO support... yes
 checking for PDO_DBLIB support via FreeTDS... no
 checking for Firebird support for PDO... no
@@ -577,7 +586,7 @@ checking for isnan... yes
 checking for mempcpy... no
 checking for strpncpy... no
 checking for working POSIX fnmatch... yes
-checking for fork... yes
+checking for fork... (cached) yes
 checking if your OS can spawn processes with inherited handles... yes
 checking for res_nsearch... no
 checking for __res_nsearch... no
@@ -734,12 +743,12 @@ checking for MM alignment and log values... done
 checking for memory allocation using mmap(MAP_ANON)... yes
 checking for memory allocation using mmap("/dev/zero")... no
 checking for mremap... no
-checking for sigaction... yes
+checking for sigaction... (cached) yes
 checking whether to enable zend signal handling... no
 
 [1mConfiguring TSRM[m
 checking for stdarg.h... (cached) yes
-checking for sigprocmask... yes
+checking for sigprocmask... (cached) yes
 
 [1mConfiguring libtool[m
 checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld

@@ -25,6 +25,7 @@ libxml
 mbstring
 mcrypt
 openssl
+pcntl
 pcre
 PDO
 pdo_sqlite
