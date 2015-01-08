@@ -468,9 +468,11 @@ checking for mcrypt support... yes
 checking for libmcrypt version... >= 2.5.6
 checking for mcrypt_module_open in -lmcrypt... yes
 checking for MSSQL support via FreeTDS... no
-checking for MySQL support... no
+checking for MySQL support... yes
 checking for specified location of the MySQL UNIX socket... no
-checking for MySQLi support... no
+checking for mysql_close in -lmysqlclient... yes
+checking for MySQL UNIX socket location... no
+checking for MySQLi support... yes
 checking whether to enable embedded MySQLi support... no
 checking for Oracle Database OCI8 support... no
 checking whether to enable pcntl support... yes
@@ -486,12 +488,13 @@ checking for sigtimedwait... no
 checking whether to enable PDO support... yes
 checking for PDO_DBLIB support via FreeTDS... no
 checking for Firebird support for PDO... no
-checking for MySQL support for PDO... no
+checking for MySQL support for PDO... yes
+checking for PDO includes... checking for PDO includes... /Users/stallman/gnuhubdata/git/php-src/ext
 checking Oracle OCI support for PDO... no
 checking for ODBC v3 support for PDO... no
 checking for PostgreSQL support for PDO... no
 checking for sqlite 3 support for PDO... yes
-checking for PDO includes... checking for PDO includes... /Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... (cached) /Users/stallman/gnuhubdata/git/php-src/ext
 checking for usleep... (cached) yes
 checking for nanosleep... (cached) yes
 checking time.h usability... yes
@@ -676,6 +679,22 @@ checking pcre install prefix... no
 checking for the location of zlib... /usr
 checking whether to enable mysqlnd... no
 checking whether to disable compressed protocol support in mysqlnd... yes
+checking whether int8 exists... no
+checking whether uint8 exists... no
+checking whether int16 exists... no
+checking whether uint16 exists... no
+checking whether int32 exists... no
+checking whether uint32 exists... no
+checking whether uchar exists... no
+checking whether ulong exists... no
+checking whether int8_t exists... yes
+checking whether uint8_t exists... yes
+checking whether int16_t exists... yes
+checking whether uint16_t exists... yes
+checking whether int32_t exists... yes
+checking whether uint32_t exists... yes
+checking whether int64_t exists... yes
+checking whether uint64_t exists... yes
 checking whether whether compiler supports Decimal32/64/128 types... no
 
 [1mConfiguring PEAR[m

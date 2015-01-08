@@ -3,6 +3,7 @@
 	/usr/lib/libexslt.0.dylib (compatibility version 9.0.0, current version 9.15.0)
 	/usr/lib/libtidy.A.dylib (compatibility version 1.0.0, current version 1.0.0)
 	/usr/lib/libresolv.9.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/local/lib/libmysqlclient.18.dylib (compatibility version 18.0.0, current version 18.0.0)
 	/usr/local/lib/libmcrypt.4.4.8.dylib (compatibility version 9.0.0, current version 9.8.0)
 	/usr/local/lib/libltdl.7.dylib (compatibility version 11.0.0, current version 11.1.0)
 	/System/Library/Frameworks/LDAP.framework/Versions/A/LDAP (compatibility version 1.0.0, current version 2.4.0)

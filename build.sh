@@ -31,6 +31,9 @@ rm -f configure
 --with-ldap-sasl \
 --with-mcrypt=/usr/local/opt/mcrypt \
 --enable-pcntl \
+--with-mysql=/Volumes/data/Users/stallman/gnuhubdata/apps/sugarcrm/mysql/  \
+--with-mysqli=mysqlnd \
+--with-pdo-mysql=mysqlnd \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

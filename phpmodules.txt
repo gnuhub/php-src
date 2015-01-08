@@ -24,10 +24,14 @@ ldap
 libxml
 mbstring
 mcrypt
+mysql
+mysqli
+mysqlnd
 openssl
 pcntl
 pcre
 PDO
+pdo_mysql
 pdo_sqlite
 Phar
 posix
