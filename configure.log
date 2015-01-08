@@ -320,7 +320,8 @@ checking whether libxml build works... yes
 checking for OpenSSL support... no
 checking for Kerberos support... no
 checking for PCRE library to use... bundled
-checking whether to enable the SQLite3 extension... no
+checking whether to enable the SQLite3 extension... yes
+checking bundled sqlite3 library... yes
 checking for ZLIB support... no
 checking if the location of ZLIB install directory is defined... no
 checking whether to enable bc style precision math functions... yes
@@ -359,8 +360,10 @@ checking for xml2-config path... (cached) /usr/bin/xml2-config
 checking whether libxml build works... (cached) yes
 checking for ENCHANT support... no
 checking whether to enable EXIF (metadata from images) support... yes
-checking for fileinfo support... no
-checking whether to enable input filter support... no
+checking for fileinfo support... yes
+checking for utimes... yes
+checking for strndup... yes
+checking whether to enable input filter support... yes
 checking pcre install prefix... no
 checking whether to enable FTP support... no
 checking OpenSSL dir for FTP... no
@@ -376,14 +379,28 @@ checking whether to enable JIS-mapped Japanese font support in GD... no
 checking for GNU gettext support... no
 checking for GNU MP support... no
 checking for mhash support... no
-checking whether to enable hash support... no
-checking for iconv support... no
+checking whether to enable hash support... yes
+checking whether byte ordering is bigendian... (cached) no
+checking size of short... 2
+checking size of int... (cached) 4
+checking size of long... (cached) 8
+checking size of long long... (cached) 8
+checking for iconv support... yes
+checking for iconv... no
+checking for libiconv... no
+checking for libiconv in -liconv... no
+checking for iconv in -liconv... yes
+checking if iconv is glibc's... no
+checking if using GNU libiconv... 267yes
+checking if iconv supports errno... yes
+checking if your cpp allows macro usage in include lines... yes
 checking for IMAP support... no
 checking for IMAP Kerberos support... no
 checking for IMAP SSL support... no
 checking for InterBase support... no
 checking whether to enable internationalization support... no
-checking whether to enable JavaScript Object Serialization support... no
+checking whether to enable JavaScript Object Serialization support... yes
+checking for ANSI C header files... (cached) yes
 checking for LDAP support... no
 checking for LDAP Cyrus SASL support... no
 checking whether to enable multibyte string support... yes
@@ -402,7 +419,7 @@ checking sys/times.h presence... yes
 checking for sys/times.h... yes
 checking for stdarg.h... (cached) yes
 checking size of int... (cached) 4
-checking size of short... 2
+checking size of short... (cached) 2
 checking size of long... (cached) 8
 checking for an ANSI C-conforming const... yes
 checking whether time.h and sys/time.h may both be included... yes
@@ -418,17 +435,46 @@ checking for MySQLi support... no
 checking whether to enable embedded MySQLi support... no
 checking for Oracle Database OCI8 support... no
 checking whether to enable pcntl support... no
-checking whether to enable PDO support... no
+checking whether to enable PDO support... yes
 checking for PDO_DBLIB support via FreeTDS... no
 checking for Firebird support for PDO... no
 checking for MySQL support for PDO... no
 checking Oracle OCI support for PDO... no
 checking for ODBC v3 support for PDO... no
 checking for PostgreSQL support for PDO... no
-checking for sqlite 3 support for PDO... no
+checking for sqlite 3 support for PDO... yes
+checking for PDO includes... checking for PDO includes... /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
+checking for usleep... (cached) yes
+checking for nanosleep... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for fdatasync in -lrt... no
 checking for PostgreSQL support... no
-checking for phar archive support... no
-checking whether to enable POSIX-like functions... no
+checking for phar archive support... yes
+checking for phar openssl support... no
+checking whether to enable POSIX-like functions... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking for seteuid... yes
+checking for setegid... yes
+checking for setsid... yes
+checking for getsid... yes
+checking for setpgid... (cached) yes
+checking for getpgid... yes
+checking for ctermid... yes
+checking for mkfifo... yes
+checking for mknod... yes
+checking for getrlimit... yes
+checking for getlogin... (cached) yes
+checking for getgroups... yes
+checking for makedev... no
+checking for initgroups... yes
+checking for getpwuid_r... (cached) yes
+checking for getgrgid_r... yes
+checking for working ttyname_r() implementation... no, posix_ttyname() will be thread-unsafe
+checking for utsname.domainname... no
 checking for PSPELL support... no
 checking for libedit readline replacement... no
 checking for readline support... no
@@ -438,7 +484,9 @@ checking for mm support... no
 checking whether pwrite works... yes
 checking whether pread works... yes
 checking whether to enable shmop support... no
-checking whether to enable SimpleXML support... no
+checking whether to enable SimpleXML support... yes
+checking for xml2-config path... (cached) /usr/bin/xml2-config
+checking whether libxml build works... (cached) yes
 checking for SNMP support... no
 checking OpenSSL dir for SNMP... no
 checking whether to enable SOAP support... yes
@@ -508,16 +556,22 @@ checking whether to enable System V IPC support... no
 checking whether to enable System V semaphore support... no
 checking whether to enable System V shared memory support... no
 checking for TIDY support... no
-checking whether to enable tokenizer support... no
+checking whether to enable tokenizer support... yes
 checking whether to enable WDDX support... no
 checking libexpat dir for WDDX... no
-checking whether to enable XML support... no
+checking whether to enable XML support... yes
 checking libexpat install dir... no
-checking whether to enable XMLReader support... no
+checking for xml2-config path... (cached) /usr/bin/xml2-config
+checking whether libxml build works... (cached) yes
+checking whether to enable XMLReader support... yes
+checking for xml2-config path... (cached) /usr/bin/xml2-config
+checking whether libxml build works... (cached) yes
 checking for XMLRPC-EPI support... no
 checking libexpat dir for XMLRPC-EPI... no
 checking iconv dir for XMLRPC-EPI... no
-checking whether to enable XMLWriter support... no
+checking whether to enable XMLWriter support... yes
+checking for xml2-config path... (cached) /usr/bin/xml2-config
+checking whether libxml build works... (cached) yes
 checking for XSL support... yes
 checking for EXSLT support... found
 checking for zip archive read/writesupport... yes
@@ -528,7 +582,7 @@ checking whether to disable compressed protocol support in mysqlnd... yes
 checking whether whether compiler supports Decimal32/64/128 types... no
 
 [1mConfiguring PEAR[m
-checking whether to install PEAR... no
+checking whether to install PEAR... yes
 
 [1mConfiguring Zend[m
 checking for bison version... (cached) invalid
@@ -654,5 +708,7 @@ config.status: creating scripts/php-config
 config.status: creating scripts/man1/php-config.1
 config.status: creating sapi/cli/php.1
 config.status: creating sapi/cgi/php-cgi.1
+config.status: creating ext/phar/phar.1
+config.status: creating ext/phar/phar.phar.1
 config.status: creating main/php_config.h
 config.status: executing default commands

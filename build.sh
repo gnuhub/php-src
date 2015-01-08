@@ -2,7 +2,6 @@
 rm -f configure
 ./buildconf --force
 ./configure \
---disable-all \
 --with-xsl --enable-libxml --enable-dom \
 --with-curl \
 --enable-session \
