@@ -324,7 +324,9 @@ checking whether to enable the SQLite3 extension... no
 checking for ZLIB support... no
 checking if the location of ZLIB install directory is defined... no
 checking whether to enable bc style precision math functions... yes
-checking for BZip2 support... no
+checking for BZip2 support... yes
+checking for BZip2 in default path... found in /usr
+checking for BZ2_bzerror in -lbz2... yes
 checking whether to enable calendar conversion support... yes
 checking whether to enable ctype functions... yes
 checking for cURL support... yes
