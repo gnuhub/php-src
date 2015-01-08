@@ -326,8 +326,10 @@ checking for pkg-config... /usr/local/bin/pkg-config
 checking for PCRE library to use... bundled
 checking whether to enable the SQLite3 extension... yes
 checking bundled sqlite3 library... yes
-checking for ZLIB support... no
+checking for ZLIB support... yes
 checking if the location of ZLIB install directory is defined... no
+checking for zlib version >= 1.2.0.4... 1.2.5
+checking for gzgets in -lz... yes
 checking whether to enable bc style precision math functions... yes
 checking for BZip2 support... yes
 checking for BZip2 in default path... found in /usr

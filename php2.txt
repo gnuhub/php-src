@@ -41,6 +41,7 @@ xmlreader
 xmlwriter
 xsl
 zip
+zlib
 
 [Zend Modules]
 
