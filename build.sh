@@ -24,3 +24,4 @@ make install
 
 otool -L ${HOME}/gnuhubdata/workspace2/php/bin/php > dylib.txt
 ${HOME}/gnuhubdata/workspace2/php/bin/php -m > phpmodules.txt
+./phpdiff.sh

@@ -11,6 +11,7 @@ ereg
 exif
 fileinfo
 filter
+ftp
 gd
 gettext
 hash
