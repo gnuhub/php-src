@@ -605,7 +605,8 @@ checking for Sybase-CT support... no
 checking whether to enable System V IPC support... no
 checking whether to enable System V semaphore support... no
 checking whether to enable System V shared memory support... no
-checking for TIDY support... no
+checking for TIDY support... yes
+checking for tidyOptGetDoc in -ltidy... yes
 checking whether to enable tokenizer support... yes
 checking whether to enable WDDX support... no
 checking libexpat dir for WDDX... no

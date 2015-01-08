@@ -25,6 +25,7 @@ rm -f configure
 --with-openssl \
 --with-zlib \
 --enable-sockets \
+--with-tidy \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
