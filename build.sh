@@ -27,6 +27,8 @@ rm -f configure
 --enable-sockets \
 --with-tidy \
 --with-xmlrpc \
+--with-ldap \
+--with-ldap-sasl \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

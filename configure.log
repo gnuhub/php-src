@@ -432,8 +432,14 @@ checking whether g++ accepts -g... yes
 checking how to run the C++ preprocessor... g++ -E
 checking whether to enable JavaScript Object Serialization support... yes
 checking for ANSI C header files... (cached) yes
-checking for LDAP support... no
-checking for LDAP Cyrus SASL support... no
+checking for LDAP support... yes
+checking for LDAP Cyrus SASL support... yes
+checking for 3 arg ldap_set_rebind_proc... yes
+checking for ldap_parse_result... yes
+checking for ldap_parse_reference... yes
+checking for ldap_start_tls_s... yes
+checking for sasl_version in -lsasl2... yes
+checking for ldap_bind_s... yes
 checking whether to enable multibyte string support... yes
 checking whether to enable multibyte regex support... yes
 checking whether to check multibyte regex backtrack... yes

@@ -3,6 +3,7 @@
 	/usr/lib/libexslt.0.dylib (compatibility version 9.0.0, current version 9.15.0)
 	/usr/lib/libtidy.A.dylib (compatibility version 1.0.0, current version 1.0.0)
 	/usr/lib/libresolv.9.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/Frameworks/LDAP.framework/Versions/A/LDAP (compatibility version 1.0.0, current version 2.4.0)
 	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.0.0)
 	/usr/lib/libpam.2.dylib (compatibility version 3.0.0, current version 3.0.0)
 	/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
