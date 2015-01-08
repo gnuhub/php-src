@@ -8,9 +8,9 @@
 --enable-calendar \
 --enable-soap \
 --enable-mbstring=all \
-# T11#142
 --enable-bcmath \
---prefix=${HOME}/gnuhubdata/workspace2/php
+--enable-zip \
+--prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
 

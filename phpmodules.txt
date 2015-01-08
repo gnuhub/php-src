@@ -15,6 +15,7 @@ soap
 SPL
 standard
 xsl
+zip
 
 [Zend Modules]
 
