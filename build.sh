@@ -11,6 +11,7 @@ rm -f configure
 --enable-mbstring=all \
 --enable-bcmath \
 --enable-zip \
+--enable-ctype \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install

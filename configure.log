@@ -326,7 +326,7 @@ checking if the location of ZLIB install directory is defined... no
 checking whether to enable bc style precision math functions... yes
 checking for BZip2 support... no
 checking whether to enable calendar conversion support... yes
-checking whether to enable ctype functions... no
+checking whether to enable ctype functions... yes
 checking for cURL support... yes
 checking if we should use cURL for url streams... no
 checking for cURL in default path... found in /usr
@@ -653,5 +653,4 @@ config.status: creating scripts/man1/php-config.1
 config.status: creating sapi/cli/php.1
 config.status: creating sapi/cgi/php-cgi.1
 config.status: creating main/php_config.h
-config.status: main/php_config.h is unchanged
 config.status: executing default commands

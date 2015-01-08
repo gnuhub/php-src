@@ -2,6 +2,7 @@
 bcmath
 calendar
 Core
+ctype
 curl
 date
 dom
