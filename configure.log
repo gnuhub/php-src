@@ -389,7 +389,8 @@ checking for ngettext in -lintl... yes
 checking for dngettext in -lintl... yes
 checking for dcngettext in -lintl... yes
 checking for bind_textdomain_codeset in -lintl... yes
-checking for GNU MP support... no
+checking for GNU MP support... yes
+checking for __gmp_randinit_lc_2exp_size in -lgmp... yes
 checking for mhash support... no
 checking whether to enable hash support... yes
 checking whether byte ordering is bigendian... (cached) no
@@ -740,5 +741,4 @@ config.status: creating sapi/cgi/php-cgi.1
 config.status: creating ext/phar/phar.1
 config.status: creating ext/phar/phar.phar.1
 config.status: creating main/php_config.h
-config.status: main/php_config.h is unchanged
 config.status: executing default commands

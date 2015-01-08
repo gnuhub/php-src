@@ -18,6 +18,7 @@ rm -f configure
 --with-gettext=/usr/local/opt/gettext \
 --with-icu-dir=/usr/local/opt/icu4c \
 --enable-ftp \
+--with-gmp \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
