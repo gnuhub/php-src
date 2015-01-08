@@ -4,6 +4,10 @@
 --disable-all \
 --with-xsl --enable-libxml --enable-dom \
 --with-curl \
+--enable-session \
+--enable-calendar \
+--enable-soap \
+--enable-mbstring=all \
 --prefix=${HOME}/gnuhubdata/workspace2/php
 make
 make install

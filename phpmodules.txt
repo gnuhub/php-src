@@ -1,12 +1,16 @@
 [PHP Modules]
+calendar
 Core
 curl
 date
 dom
 ereg
 libxml
+mbstring
 pcre
 Reflection
+session
+soap
 SPL
 standard
 xsl
