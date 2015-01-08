@@ -367,7 +367,7 @@ checking whether to enable input filter support... yes
 checking pcre install prefix... no
 checking whether to enable FTP support... no
 checking OpenSSL dir for FTP... no
-checking for GD support... no
+checking for GD support... yes
 checking for the location of libvpx... no
 checking for the location of libjpeg... no
 checking for the location of libpng... no
@@ -376,6 +376,13 @@ checking for FreeType 2... no
 checking for T1lib support... no
 checking whether to enable truetype string function in GD... no
 checking whether to enable JIS-mapped Japanese font support in GD... no
+checking for fabsf... yes
+checking for floorf... yes
+If configure fails try --with-jpeg-dir=<DIR>
+If configure fails try --with-vpx-dir=<DIR>
+checking for png_write_image in -lpng... yes
+If configure fails try --with-xpm-dir=<DIR>
+If configure fails try --with-freetype-dir=<DIR>
 checking for GNU gettext support... no
 checking for GNU MP support... no
 checking for mhash support... no

@@ -11,6 +11,7 @@ ereg
 exif
 fileinfo
 filter
+gd
 hash
 iconv
 json

@@ -3,6 +3,7 @@
 	/usr/lib/libexslt.0.dylib (compatibility version 9.0.0, current version 9.15.0)
 	/usr/lib/libresolv.9.dylib (compatibility version 1.0.0, current version 1.0.0)
 	/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
+	/usr/local/lib/libpng16.16.dylib (compatibility version 32.0.0, current version 32.0.0)
 	/usr/lib/libcurl.4.dylib (compatibility version 7.0.0, current version 8.0.0)
 	/usr/lib/libbz2.1.0.dylib (compatibility version 1.0.0, current version 1.0.5)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)
