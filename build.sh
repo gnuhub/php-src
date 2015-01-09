@@ -43,6 +43,30 @@ make install
 pecl install xdebug
 ln -sfv ${HOME}/gnuhubdata/git/php-src/gnuhub_php.ini ${HOME}/gnuhubdata/workspace2/php/lib/php.ini
 
+function php.db2
+{
+	pushd /tmp
+	rm ibm_db2-1.9.6.tgz
+	if [ ! -f ibm_db2-1.9.6.tgz ];then
+
+            wget http://pecl.php.net/get/ibm_db2-1.9.6.tgz
+    fi
+    rm -rf ibm_db2-1.9.6/
+    if [ ! -d ibm_db2-1.9.6 ];then
+            tar xfz ibm_db2-1.9.6.tgz
+    fi
+    cd ibm_db2-1.9.6
+    phpize
+    ./configure --with-IBM_DB2=/opt/IBM/db2/V10.1
+    #/home/db2inst1/sqllib/include
+    make
+    make install
+    #make test
+    popd
+}
+
+php.db2
+
 otool -L ${HOME}/gnuhubdata/workspace2/php/bin/php > dylib.txt
 ${HOME}/gnuhubdata/workspace2/php/bin/php -m > phpmodules.txt
 ./phpdiff.sh

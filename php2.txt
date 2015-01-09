@@ -16,6 +16,7 @@ gd
 gettext
 gmp
 hash
+ibm_db2
 iconv
 imap
 intl
