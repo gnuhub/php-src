@@ -489,12 +489,12 @@ checking whether to enable PDO support... yes
 checking for PDO_DBLIB support via FreeTDS... no
 checking for Firebird support for PDO... no
 checking for MySQL support for PDO... yes
-checking for PDO includes... checking for PDO includes... /Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... checking for PDO includes... /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
 checking Oracle OCI support for PDO... no
 checking for ODBC v3 support for PDO... no
 checking for PostgreSQL support for PDO... no
 checking for sqlite 3 support for PDO... yes
-checking for PDO includes... (cached) /Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... (cached) /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
 checking for usleep... (cached) yes
 checking for nanosleep... (cached) yes
 checking time.h usability... yes

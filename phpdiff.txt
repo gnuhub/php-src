@@ -1,6 +1,6 @@
---- php1.txt	2015-01-09 14:05:59.000000000 +0800
-+++ php2.txt	2015-01-09 14:05:59.000000000 +0800
-@@ -19,12 +19,12 @@
+--- php1.txt	2015-01-09 14:26:12.000000000 +0800
++++ php2.txt	2015-01-09 14:26:12.000000000 +0800
+@@ -19,6 +19,7 @@
  ibm_db2
  iconv
  imap
@@ -8,13 +8,7 @@
  json
  ldap
  libxml
- mbstring
- mcrypt
--mongo
- mysql
- mysqli
- mysqlnd
-@@ -51,6 +51,7 @@
+@@ -51,6 +52,7 @@
  xmlreader
  xmlrpc
  xmlwriter

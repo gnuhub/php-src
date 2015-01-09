@@ -16,6 +16,7 @@ gd
 gettext
 gmp
 hash
+ibm_db2
 iconv
 imap
 intl
@@ -24,6 +25,7 @@ ldap
 libxml
 mbstring
 mcrypt
+mongo
 mysql
 mysqli
 mysqlnd
