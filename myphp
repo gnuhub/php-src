@@ -1,1 +1,1 @@
-export PATH=${HOME}/gnuhubdata/workspace2/php/bin:$PATH
+export PATH=${HOME}/gnuhubdata/workspace2/php/bin:${HOME}/gnuhubdata/workspace2/php/sbin:$PATH

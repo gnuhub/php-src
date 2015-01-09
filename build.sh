@@ -34,6 +34,7 @@ rm -f configure
 --with-mysql=/Volumes/data/Users/stallman/gnuhubdata/apps/sugarcrm/mysql/  \
 --with-mysqli=mysqlnd \
 --with-pdo-mysql=mysqlnd \
+--enable-fpm \
 --prefix=${HOME}/gnuhubdata/workspace2/php > configure.log 2>&1
 make
 make install
@@ -42,6 +43,7 @@ make install
 . ./myphp
 pecl install xdebug
 ln -sfv ${HOME}/gnuhubdata/git/php-src/gnuhub_php.ini ${HOME}/gnuhubdata/workspace2/php/lib/php.ini
+ln -sfv ${HOME}/gnuhubdata/git/php-src/gnuhub_php-fpm.conf ${HOME}/gnuhubdata/workspace2/php/etc/php-fpm.conf
 
 function php.db2
 {
