@@ -45,6 +45,7 @@ sqlite3
 standard
 tidy
 tokenizer
+xdebug
 xml
 xmlreader
 xmlrpc
@@ -54,4 +55,5 @@ zip
 zlib
 
 [Zend Modules]
+Xdebug
 

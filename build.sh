@@ -38,6 +38,11 @@ rm -f configure
 make
 make install
 
+
+. ./myphp
+pecl install xdebug
+ln -sfv ${HOME}/gnuhubdata/git/php-src/gnuhub_php.ini ${HOME}/gnuhubdata/workspace2/php/lib/php.ini
+
 otool -L ${HOME}/gnuhubdata/workspace2/php/bin/php > dylib.txt
 ${HOME}/gnuhubdata/workspace2/php/bin/php -m > phpmodules.txt
 ./phpdiff.sh
