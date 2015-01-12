@@ -4,6 +4,8 @@ checking for a sed that does not truncate output... /usr/bin/sed
 checking build system type... i386-apple-darwin13.4.0
 checking host system type... i386-apple-darwin13.4.0
 checking target system type... i386-apple-darwin13.4.0
+shtool:echo:Warning: unable to determine terminal sequence for bold mode
+shtool:echo:Warning: unable to determine terminal sequence for bold mode
 checking for cc... cc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -53,7 +55,7 @@ checking whether /dev/urandom exists... yes
 checking for pthreads_cflags... 
 checking for pthreads_lib... 
 
-[1mConfiguring SAPI modules[m
+Configuring SAPI modules
 checking for AOLserver support... no
 checking for Apache 1.x module support via DSO through APXS... no
 checking for Apache 1.x module support... no
@@ -141,7 +143,7 @@ checking whether cross-process locking is required by accept()... no
 checking for chosen SAPI module... none
 checking for executable SAPI binaries...  cli fpm cgi
 
-[1mRunning system checks[m
+Running system checks
 checking for sendmail... /usr/sbin/sendmail
 checking whether system uses EBCDIC... no
 checking whether byte ordering is bigendian... no
@@ -340,7 +342,7 @@ checking for type of readdir_r... POSIX
 checking for in_addr_t... yes
 checking for crypt_r... no
 
-[1mGeneral settings[m
+General settings
 checking whether to include gcov symbols... no
 checking whether to include debugging symbols... no
 checking layout of installed files... PHP
@@ -354,7 +356,7 @@ checking whether to enable IPv6 support... yes
 checking whether to enable DTrace support... no
 checking how big to make fd sets... using system default
 
-[1mConfiguring extensions[m
+Configuring extensions
 checking size of long... (cached) 8
 checking size of int... (cached) 4
 checking for int32_t... yes
@@ -544,12 +546,12 @@ checking whether to enable PDO support... yes
 checking for PDO_DBLIB support via FreeTDS... no
 checking for Firebird support for PDO... no
 checking for MySQL support for PDO... yes
-checking for PDO includes... checking for PDO includes... /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... checking for PDO includes... /Users/stallman/gnuhubdata/git/php-src/ext
 checking Oracle OCI support for PDO... no
 checking for ODBC v3 support for PDO... no
 checking for PostgreSQL support for PDO... no
 checking for sqlite 3 support for PDO... yes
-checking for PDO includes... (cached) /Volumes/data/Users/stallman/gnuhubdata/git/php-src/ext
+checking for PDO includes... (cached) /Users/stallman/gnuhubdata/git/php-src/ext
 checking for usleep... (cached) yes
 checking for nanosleep... (cached) yes
 checking time.h usability... yes
@@ -750,10 +752,10 @@ checking whether int64_t exists... yes
 checking whether uint64_t exists... yes
 checking whether whether compiler supports Decimal32/64/128 types... no
 
-[1mConfiguring PEAR[m
+Configuring PEAR
 checking whether to install PEAR... yes
 
-[1mConfiguring Zend[m
+Configuring Zend
 checking for bison version... (cached) invalid
 configure: WARNING: bison versions supported for regeneration of the Zend/PHP parsers: 1.28 1.35 1.75 1.875 2.0 2.1 2.2 2.3 2.4 2.4.1 2.4.2 2.4.3 2.5 2.5.1 2.6 2.6.1 2.6.2 2.6.4 (found: none).
 checking for inttypes.h... (cached) yes
@@ -818,11 +820,11 @@ checking for mremap... no
 checking for sigaction... (cached) yes
 checking whether to enable zend signal handling... no
 
-[1mConfiguring TSRM[m
+Configuring TSRM
 checking for stdarg.h... (cached) yes
 checking for sigprocmask... (cached) yes
 
-[1mConfiguring libtool[m
+Configuring libtool
 checking for ld used by cc... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
 checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
 checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
@@ -865,7 +867,7 @@ checking whether the g++ linker (/Applications/Xcode.app/Contents/Developer/Tool
 checking dynamic linker characteristics... darwin13.4.0 dyld
 (cached) (cached) checking how to hardcode library paths into programs... immediate
 
-[1mGenerating files[m
+Generating files
 configure: creating ./config.status
 creating main/internal_functions.c
 creating main/internal_functions_cli.c
@@ -896,5 +898,4 @@ config.status: creating sapi/cgi/php-cgi.1
 config.status: creating ext/phar/phar.1
 config.status: creating ext/phar/phar.phar.1
 config.status: creating main/php_config.h
-config.status: main/php_config.h is unchanged
 config.status: executing default commands
