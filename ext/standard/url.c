@@ -69,7 +69,8 @@ PHPAPI char *php_replace_controlchars_ex(char *str, int len)
 	if (!str) {
 		return (NULL);
 	}
-	
+
+	/*
 	while (s < e) {
 	    
 		if (iscntrl(*s)) {
@@ -77,6 +78,7 @@ PHPAPI char *php_replace_controlchars_ex(char *str, int len)
 		}	
 		s++;
 	}
+	*/
 	
 	return (str);
 } 
